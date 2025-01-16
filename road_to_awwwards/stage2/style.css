@@ -1,0 +1,59 @@
+/* ==== Global Styles ==== */
+body {
+  background-color: #f5f5f5;
+  margin: auto
+}
+
+/* ==== Header ==== */
+header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: 550;
+  margin-top: 10px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: gray;
+}
+
+/* ==== Main Section ==== */
+#ascii-404 {
+  /* background-color: rgb(167, 167, 192); */
+  padding: 10px;
+}
+
+#ascii-meow {
+  /* background-color: rgb(144, 218, 193); */
+  margin-top: 30rem;
+  padding: 10px;
+}
+
+#ascii-spider {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
+
+/* ==== Footer ==== */
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  /* align-content: space-between; */
+  flex: 1
+    /* grid-template-columns: 25% 25% 25% 25%; */
+}
+
+/* footer>.copyright { */
+/* grid-column: 1/2; */
+/* background-color: bisque; */
+/* } */
+
+/* footer>.socialMedia { */
+/* grid-column: 3/5; */
+/* background-color: blue; */
+/* } */
+
+/* footer>.email { */
+/* grid-column: 2/3; */
+/* grid-row: 1; */
+/* background-color: blueviolet; */
+/* } */
