@@ -1,10 +1,9 @@
-/* ====== Basic Reset ====== */
+/* ====== Global Styles  ====== */
 * {
   margin: 0;
   padding: 0
 }
 
-/* ====== Body & Global Styles ====== */
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: #f5f5f5;
@@ -15,7 +14,6 @@ body {
 }
 
 /* ====== Header & Banner ====== */
-
 pre {
   margin-top: 3rem;
   scroll-margin: auto;
@@ -48,11 +46,17 @@ pre {
 
 
 /* ====== Main Sections ====== */
+main {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-template-rows: 2;
+  column-gap: 10rem;
+}
 
 #intro {
   max-width: 600px;
   margin: 3rem;
-  text-align: justify;
+  text-align: left;
 }
 
 #intro p {
@@ -63,9 +67,13 @@ pre {
   max-width: 600px;
   margin: 3rem;
   text-align: justify;
+  grid-column: 1/2;
+  grid-row: 2
 }
 
-/* ====== Timeline / Milestones ====== */
+#journeyMap {
+  grid-column: 2/3;
+}
 
 /* ===== List Styles ==== */
 ul {
@@ -81,6 +89,9 @@ a {
   /* classic link color */
 }
 
+/* ====== Journey Loop ====== */
+
+section #journeyMap {}
 
 /* ====== Footer ====== */
 footer {
